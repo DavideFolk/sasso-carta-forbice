@@ -7,14 +7,14 @@ body {
 }
 
 h1 {
-    padding-top: 10px;
+    padding-top: 5px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
 
 .img-gioco {
     height: 150px;
-    padding: 10px 30px;
+    padding: 5px 20px;
     background-color: white;
     border-radius: 4%;
 }
@@ -24,7 +24,7 @@ h1 {
 }
 
 .col {
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -47,7 +47,7 @@ h3 {
     background-color: rgb(234, 234, 238, 0.6);
     color: black;
     position: absolute;
-    top: 53%;
+    top: 55%;
     left: 50%;
     margin: auto;
     width: 300px;
