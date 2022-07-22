@@ -1,3 +1,3 @@
 # Gioco sasso-carta-forbice
 
-live:
+live: https://davidefolk.github.io/sasso-carta-forbice/
