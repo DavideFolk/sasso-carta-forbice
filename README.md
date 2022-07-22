@@ -1,1 +1,3 @@
-# sasso-carta-forbice
+# Gioco sasso-carta-forbice
+
+live:
