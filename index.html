@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasso Carta Forbice</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome per icone -->
+    <script src="https://kit.fontawesome.com/3dbb4ed71b.js" crossorigin="anonymous"></script>
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Gioco sasso carta forbice</h1>
+    <section id="scelta">
+        <div>
+            <h3>Scegli una mossa:</h3>
+        </div>
+        <div>
+            <button id="sasso" type="button" class="btn btn-light btn-lg btn-scelta"><img class="img-gioco"
+                    src="image/sasso.png" alt=""></button>
+            <button id="carta" type="button" class="btn btn-light btn-lg btn-scelta"><img class="img-gioco"
+                    src="image/carta.png" alt=""></button>
+            <button id="forbice" type="button" class="btn btn-light btn-lg btn-scelta"><img class="img-gioco"
+                    src="image/forbice.png" alt=""></button>
+        </div>
+    </section>
+
+    <section id="risultato">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h3>Giocatore</h3>
+                    <img class="img-gioco img-scelta-gioc" src="image/sasso.png" alt="">
+                    <h3>Punteggio:</h3>
+                    <h3 class="punteggio-gioc">0</h3>
+                </div>
+
+                <div class="col">
+                    <h3>Computer</h3>
+                    <img class="img-gioco img-scelta-pc" src="image/sasso.png" alt="">
+                    <h3>Punteggio:</h3>
+                    <h3 class="punteggio-pc">0</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="vittoria">
+        <h1></h1>
+    </div>
+
+    <div>
+        <button id="ricomincia" type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-arrows-rotate"></i>
+            Ricomincia</button>
+    </div>
+
+
+    <!-- my script -->
+    <script src="index.js"></script>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
