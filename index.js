@@ -1,3 +1,4 @@
+'use strict';
 let puntiGioc = 0;
 let puntiComp = 0;
 
